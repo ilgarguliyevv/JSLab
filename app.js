@@ -32,19 +32,19 @@
 //Fibonacci konsol sira
 
 // function fibonacci(num) {
-//   if (num == 1) return 0;
-//   if (num == 2) return 1;
-//   let num1 = 0;
-//   let num2 = 1;
-//   let sum;
-//   let i = 2;
-//   while (i < num) {
-//     sum = num1 + num2;
-//     num1 = num2;
-//     num2 = sum;
-//     i += 1;
-//   }
-//   return num2;
+//     if (num == 1) return 0;
+//     if (num == 2) return 1;
+//     let num1 = 0;
+//     let num2 = 1;
+//     let sum;
+//     let i = 2;
+//     while (i < num) {
+//         sum = num1 + num2;
+//         num1 = num2;
+//         num2 = sum;
+//         i += 1;
+//     }
+//     return num2;
 // }
 // console.log("Fibonacci(1): " + fibonacci(1));
 // console.log("Fibonacci(2): " + fibonacci(2));
@@ -62,8 +62,8 @@
 
 // let number = prompt("Reqem daxil edin: ");
 // for (let i = 1; i <= 10; i++) {
-//   let pass = i * number;
-//   console.log(`${number} * ${i} = ${pass}`);
+//     let pass = i * number;
+//     console.log(`${number} * ${i} = ${pass}`);
 // }
 
 //Fibonacci reqemler
@@ -72,8 +72,8 @@
 // var number = [0, 1];
 
 // for (i = 2; i <= 10; i++) {
-//   number[i] = number[i - 2] + number[i - 1];
-//   console.log(number[i]);
+//     number[i] = number[i - 2] + number[i - 1];
+//     console.log(number[i]);
 // }
 
 // 1-500
@@ -81,9 +81,9 @@
 // let a = "cut";
 // let b = "tek";
 // for (let i = 0; i < 500; i++) {
-//   if (i % 2 === 0) document.write(i + " ");
+//     if (i % 2 === 0) document.write(i + " ");
 // }
 // for (let i = 0; i < 500; i++) {
-//   if (i % 2 !== 0) document.write(i + " ");
-//   console.log((i % 2 === 500) - (i % 2 !== 500));
+//     if (i % 2 !== 0) document.write(i + " ");
+//     console.log((i % 2 === 500) - (i % 2 !== 500));
 // }
